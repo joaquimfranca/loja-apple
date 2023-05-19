@@ -1,0 +1,168 @@
+.bag {
+  position: fixed;
+  top: 30px;
+  margin-left: 80%;
+  width: 10%;
+}
+.bag span{
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  padding:5px;
+  margin-left: 40px;
+  margin-top:-16px;
+ text-align: center;
+  position: fixed;
+  font-size: 20px;
+  background-color: #4395e7;
+}
+
+.buttonbag {
+  background: none;
+  width: 45px;
+  height: 33px;
+  border: none;
+  cursor: pointer;
+}
+.buttonbag img {
+  filter: invert();
+  width: 45px;
+  height: 33px;
+}
+
+.bag-container {
+  width: 350px;
+  height: auto;
+  min-height: 500px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1;
+  margin-left: 50px;
+  min-width: 160px;
+  padding: 8px 0;
+  background-color: #fff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.bag-header h1 {
+  margin-left: 50px;
+  color: #000000;
+  font-size: 30px;
+}
+
+.show {
+  
+  display: block;
+  
+}
+
+.bag-products {
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+}
+.bag-products img {
+  width: 50px;
+}
+.bag-product-description {
+ margin-left: 10%;
+ display: block;
+ width: 200px;
+  
+}
+
+.bag-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.bag-header button {
+  padding-right: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.bag-productsh3 {
+  color: #434344;
+  font-size: 20px;
+}
+.buttons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+  margin: 10px;
+  width: 50%;
+}
+.add-buttons1:hover,.add-buttons2:hover, .remove:hover{
+  filter: brightness(120%);
+}
+
+.add-buttons1, .add-buttons2 {
+  margin: 0 auto;
+  background-color: #4395e7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+.blue-buttons{
+  width: 120px;
+  display: flex;
+  
+}
+.blue-buttons p{
+  margin-top: 6px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.bag-items p {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bag-items h4 {
+  font-weight: 100;
+}
+.remove {
+ display: block;
+  color: #4395e7;
+  background: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.subtotal {
+  text-align: center;
+}
+.total p {
+  margin-top: 40px;
+  display: block;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+
+.noitens {
+  font-size: 20px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    right: 0px;
+  }
+}

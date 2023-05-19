@@ -1,0 +1,44 @@
+.container {
+  padding-top: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.product-title h1 {
+}
+
+.product-image img {
+  width: 200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.product-description h1,
+h2,
+h3 {
+}
+
+.button button {
+  border: 0;
+  background-color: transparent;
+  color: #0166CC;
+  font-size: 19px;
+}
+
+.button button:hover {
+  color: #4395e7;
+  text-decoration: underline;
+}

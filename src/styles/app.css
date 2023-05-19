@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url("../font/MyriadProRegular.ttf") format('truetype');
+  }
+  *{
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'MyFont', sans-serif;
+  }
+  

@@ -1,0 +1,65 @@
+
+[{  "id": "1",
+    "quantity": 1,
+    "title": "Imac",
+    "price": 1299,
+    "description":"iMac 24",
+    "imgname": "1.jpg"
+    
+  }, {
+    "id": "2",
+    "quantity": 1,
+    "title": "MacBook",
+    "price": 999,
+    "description":"MacBook Air M1",
+    "imgname": "2.jpg"
+  }, {
+    "id": "3",
+    "quantity": 1,
+    "title": "Apple Watch",
+    "price": 799,
+    "description":"Apple Watch Ultra",
+    "imgname": "3.jpg"
+  }, {
+    "id": "4",
+    "quantity": 1,
+    "title": "AirPods",
+    "price": 249,
+    "description":"AirPods Pro",
+    "imgname": "4.jpg"
+  }, {
+    "id": "5",
+    "quantity": 1,
+    "title": "Ipad",
+    "price": 799,
+    "description":"Ipad Pro",
+    "imgname": "5.jpg"
+  }, {
+    "id": "6",
+    "quantity": 1,
+    "title": "Ipod",
+    "price": 99,
+    "description":"Ipod (RED EDITION)",
+    "imgname": "6.jpg"
+  }, {
+    "id": "7",
+    "quantity": 1,
+    "title": "Apple TV",
+    "price": 129 ,
+    "description":"Apple Tv 4K",
+    "imgname": "7.jpg"
+  }, {
+    "id": "8",
+    "quantity": 1,
+    "title": "AirTag",
+    "price": 29 ,
+    "description":"AirTag",
+    "imgname": "8.jpg"
+  }, {
+    "id": "9",
+    "quantity": 1,
+    "title": "HomePod",
+    "price":299 ,
+    "description":" Immersive, high‑fidelity audio",
+    "imgname": "9.jpg"
+  }]
